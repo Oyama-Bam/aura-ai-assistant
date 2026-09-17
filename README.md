@@ -1,126 +1,99 @@
-# Aura AI Assistant
+# AI Workplace Productivity Assistant
 
-Build a modern, responsive SaaS web application called AI Workplace Productivity Assistant.
+## 1. Project Overview
 
-Create a frontend-only application. No backend, database, user accounts, authentication, or data storage. User inputs and AI outputs should only exist during the current session.
+**AI Workplace Productivity Assistant** is a modern, responsive web application designed to help professionals complete common workplace tasks using AI.
 
-Core Features
+The application provides tools for generating professional emails, researching and summarising information, and interacting with an AI workplace assistant.
 
-1. Smart Email Generator
+The application is designed as a frontend-only SaaS platform and does not store user data.
 
-Generate professional workplace emails.
+## 2. Features Implemented
 
-Fields: recipient/context, purpose, key points, and tone.
+### Smart Email Generator
 
-Tone options: Formal, Friendly, Persuasive.
+* Generates professional workplace emails.
+* Supports three tones:
 
-Display the generated email in an editable text area.
+  * Formal
+  * Friendly
+  * Persuasive
+* Allows users to edit generated emails.
+* Copy-to-clipboard functionality.
 
-Include Copy and Clear buttons.
+### AI Research Assistant
 
-2. AI Research Assistant
+* Allows users to enter research topics or questions.
+* Allows users to paste website or article URLs.
+* Provides:
 
-Allow users to enter a topic, question, or paste an article/website URL.
+  * Summaries
+  * Key insights
+  * Recommendations
+* Editable AI-generated results.
+* Copy-to-clipboard functionality.
 
-Provide:
+### AI Chatbot
 
-Summary
+* Interactive AI workplace assistant.
+* Allows users to ask questions and give workplace-related prompts.
+* Provides suggested prompts to help users get started.
+* Allows users to copy AI responses.
 
-Key Insights
+### Dashboard
 
-Recommendations
+* Modern SaaS-style dashboard.
+* Sidebar navigation.
+* Responsive design for desktop, tablet and mobile.
+* Clean luxury-inspired colour palette.
+* Simple and professional user interface.
 
-Clearly handle invalid or unsupported URLs.
+### Responsible AI
 
-Make the output editable and easy to copy.
+* Includes an AI disclaimer reminding users to review and verify AI-generated information.
+* Advises users not to enter confidential or sensitive information.
 
-3. AI Workplace Chatbot
+## 3. Technologies and Tools Used
 
-Clean conversational chat interface.
+* **Lovable** – Application development and UI generation
+* **React** – Frontend application framework
+* **TypeScript** – Application programming language
+* **Tailwind CSS** – Styling and responsive design
+* **AI-powered features** – Email generation, research assistance and chatbot functionality
+* **GitHub** – Source code management
 
-Users can ask workplace-related questions or general productivity questions.
+## 4. Setup Instructions
 
-Include suggested prompts such as:
+### Prerequisites
 
-"Help me write a professional email"
+You will need:
 
-"Summarise this topic"
+* A modern web browser
+* Internet connection
+* Access to the project source code
 
-"Give me productivity tips"
+### Running the Application
 
-Allow users to copy chatbot responses.
+1. Clone or download the project from its repository.
+2. Open the project in your development environment.
+3. Install the required dependencies.
+4. Start the development server.
+5. Open the application in your web browser.
 
-Design
+### Live Application
 
-Create a clean, premium and professional SaaS dashboard.
+The application is available at:
 
-Luxury colour palette only: black, white, charcoal, cream, and subtle gold accents.
+https://ai-workmate-suite-48.lovable.app
 
-No bright or playful colours.
+### Data and Privacy
 
-Modern typography, spacious layout, subtle borders and minimal shadows.
+This application does not use a backend database or permanently store user information. User inputs and generated content are intended to remain within the current session.
 
-Responsive on desktop, tablet and mobile.
+## 5. Author
 
-Layout
+**Oyama Bam**
 
-Left sidebar navigation with:
+AI Workplace Productivity Assistant
 
-Dashboard
-
-Email Generator
-
-Research Assistant
-
-AI Chat
-
-Main content area with a professional dashboard.
-
-Dashboard should show three feature cards linking to the main tools.
-
-Include a simple welcome section and productivity-focused design.
-
-UX Requirements
-
-Clear structured AI prompts.
-
-Loading states while generating responses.
-
-Empty states and helpful error messages.
-
-Editable AI outputs.
-
-Copy-to-clipboard buttons.
-
-Responsive navigation.
-
-Do not store or save user data.
-
-Responsible AI
-
-Add a small disclaimer in the interface:
-
-"AI-generated content may contain errors. Review and verify important information before using it. Do not enter confidential or sensitive information."
-
-The final application should feel like a premium workplace AI productivity product, not a basic chatbot.
-
-This project was built with [Lovable](https://lovable.dev).
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/36e9c26f-3c2a-460d-9d7a-c2163df6784d).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+Developed using Lovable.
