@@ -24,7 +24,7 @@ export const Route = createFileRoute("/research")({
       },
     ],
   }),
-  component: ResearchAssistant;
+  component: ResearchAssistant,
 });
 
 function looksLikeUrl(value: string) {
