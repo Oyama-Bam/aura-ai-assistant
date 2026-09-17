@@ -31,7 +31,7 @@ const reasoningOptions = {
     store: false,
     include: ["reasoning.encrypted_content"],
   },
-} as const;
+};
 
 const EmailInput = z.object({
   recipient: z.string().min(1).max(500),
